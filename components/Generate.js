@@ -8,7 +8,7 @@ const Generate = () => {
     <div className="w-full min-h-screen flex justify-center items-center p-4">
       <div className="w-full max-w-4xl  lg:w-[700px]  xl:max-w-6xl bg-zinc-700 bg-opacity-40 p-4 rounded-3xl border-double border-8 border-zinc-700 border-opacity-20">
         {/* Header Buttons */}
-        <div className="flex justify-between mb-5 gap-2 flex-wrap xs:justify-center">
+        <div className="flex justify-between mb-5 gap-2 flex-wrap ">
           <div className="flex items-center rounded-full bg-gray-400 bg-opacity-30 hover:bg-gray-600 px-4 py-2">
             <FaHistory className="text-white mr-2" />
             <h1 className="text-sm text-white font-semibold">History</h1>
