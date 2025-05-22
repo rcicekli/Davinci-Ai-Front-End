@@ -30,9 +30,9 @@ const Cards = () => {
             />
             <source src={videosrc} type="video/mp4" />
           </div>
-          <h1 className="text-white font-extrabold text-5xl mb-10 md:mx-auto sm:mx-auto xs:mx-auto">
-            Explore Artworks
-          </h1>
+        <h1 className="text-white font-extrabold text-3xl sm:text-4xl md:text-5xl text-center mb-10 mx-auto">
+  Explore Artworks
+</h1>
           <h1 className="text-gray-500 text-xl text-wrap text-center mb-10 mx-5">
             Explore AI-generated images in diverse styles, unveiling a
             captivating collection of visuals crafted by AI.
