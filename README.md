@@ -1,4 +1,4 @@
-# 🎨 DAVINCI AI FRONT-END CLONE
+## 🎨 DAVINCI AI FRONT-END CLONE
 
 > 🚀 Davinci AI görsel sanat platformunun modern frontend klonu (UI/UX odaklı proje)
 
@@ -62,11 +62,15 @@ src/
 │   ├── Generate.js
 │   ├── Navbar.js
 
+```
+---
 
 ## 📱 RESPONSIVE YAPI
 
 ✔ Mobil uyumlu  
+
 ✔ Tablet uyumlu  
+
 ✔ Desktop uyumlu  
 
 ---
@@ -74,6 +78,7 @@ src/
 ## 🧠 NOT
 
 Bu proje sadece frontend klonudur.  
+
 AI (yapay zeka) backend veya model içermez.
 
 ---
@@ -81,7 +86,9 @@ AI (yapay zeka) backend veya model içermez.
 ## 👨‍💻 GELİŞTİRİCİ
 
 Ramazan Çiçekli  
+
 GitHub: https://github.com/rcicekli  
+
 LinkedIn: https://www.linkedin.com/in/rcicekli/
 
 ---
