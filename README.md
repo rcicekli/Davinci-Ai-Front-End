@@ -23,11 +23,11 @@ Bu proje, Davinci AI görsel sanat platformunun kullanıcı arayüzünü birebir
 
 | Davinci 1 | Davinci 2 |
 |----------|----------|
-| ![Davinci 1](/davinci1.png) | ![Davinci 2](/davinci2.png) |
+| ![Davinci 1](public/davinci1.png) | ![Davinci 2](public/davinci2.png) |
 
 | Davinci 3 | Davinci 4 |
 |----------|----------|
-| ![Davinci 3](/davinci3.png)| ![Davinci 4](/davinci4.png) |
+| ![Davinci 3](public/davinci3.png)| ![Davinci 4](public/davinci4.png) |
 
 ## ✨ ÖZELLİKLER
 
