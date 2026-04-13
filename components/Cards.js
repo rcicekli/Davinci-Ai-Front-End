@@ -40,31 +40,23 @@ const Cards = () => {
 
           <section id="our-team" className=" bg-transparent text-center mx-10 ">
             <div className=" mx-auto text-xs md:mx-auto sm:mx-auto xs:mx-auto p-10">
-              <div className="mx-auto my-6 flex flex-col md:flex-row xs:flex-col sm:mx-20 justify-center">
-                <div className="md:flex items-center rounded-full px-1 py-1 mx-3 my-2 sm:my-2 hover:bg-gray-600 bg-transparent border border-solid border-white w-full">
-                  <h1 className="text-sm text-white mx-auto p-3 px-4">
-                    Creepy
-                  </h1>
-                </div>
-                <div className="md:flex items-center rounded-full px-1 py-1 mx-3 my-2 sm:my-2 hover:bg-gray-600 bg-transparent border border-solid border-white w-full">
-                  <h1 className="text-sm text-white mx-auto p-3 px-4">
-                    Midjourney
-                  </h1>
-                </div>
-                <div className="md:flex items-center rounded-full px-1 py-1 mx-3  my-2 sm:my-2 hover:bg-gray-600 bg-transparent border border-solid border-white w-full">
-                  <h1 className="text-sm text-white mx-auto p-3 px-4">Pixar</h1>
-                </div>
-                <div className="md:flex items-center rounded-full px-1 py-1 my-2 mx-3 sm:my-2 hover:bg-gray-600 bg-transparent border border-solid border-white w-full">
-                  <h1 className="text-sm text-white mx-auto p-3 px-4">
-                    Portrait
-                  </h1>
-                </div>
-                <div className="md:flex items-center rounded-full px-1 py-1 mx-3 my-2 sm:my-2 hover:bg-gray-600 bg-transparent border border-solid border-white w-full">
-                  <h1 className="text-sm text-white mx-auto p-3 px-4">
-                    Tattoo
-                  </h1>
-                </div>
-              </div>
+              <div className="mx-auto my-6 flex flex-col md:flex-row sm:mx-20 justify-center items-center md:items-stretch">
+  {/* items-center: Mobilde dikeydeki kutuları ortalar | md:items-stretch: Masaüstünde eski formuna döndürür */}
+  
+  {[ "Creepy", "Midjourney", "Pixar", "Portrait", "Tattoo" ].map((text, index) => (
+    <div 
+      key={index} 
+      className="flex items-center justify-center rounded-full px-1 py-1 mx-3 my-2 hover:bg-[#4185d8] hover:text-black transition-all duration-300 bg-transparent border border-solid border-white w-[80%] md:w-full max-w-[300px] md:max-w-none cursor-pointer group"
+    >
+      {/* justify-center: Mobilde metni kutu içinde ortalar */}
+      {/* w-[80%]: Mobilde kutunun çok yayılmaması için daraltıldı, md:w-full ile eski haline döner */}
+      
+      <h1 className="text-sm text-white group-hover:text-black mx-auto p-3 px-4 text-center">
+        {text}
+      </h1>
+    </div>
+  ))}
+</div>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 p-10s ">
                 <div className="bg-white rounded-lg shadow-md p-0  text-center ">
@@ -93,7 +85,7 @@ const Cards = () => {
 
                 <div className="bg-white rounded-lg shadow-md p-0  text-center">
                   <img
-                    src="https://media.licdn.com/dms/image/D4D12AQECBPPQfpXJpQ/article-cover_image-shrink_720_1280/0/1687260970494?e=2147483647&v=beta&t=lw3UoUIeG_8Pqj7oM8EjvPiM9Yg00CVWxzZ2A2wxA0Q"
+                    src="https://img.freepik.com/ucretsiz-fotograf/biyorobot-konseptinin-3d-render-i_23-2149524396.jpg?semt=ais_hybrid&w=740&q=80"
                     alt="Team Member 4"
                     className="w-full h-full rounded-lg mb-4"
                   />
@@ -133,28 +125,28 @@ const Cards = () => {
                 <div className="bg-white rounded-lg shadow-md p-0  text-center">
                   <img
                     src="https://www.deryauluduz.com/wp-content/uploads/2024/05/yapay-zeka-ile-insan-beyni-arasindaki-cilgin-benzerlikler.jpg"
-                    alt="Team Member 8"
+                    alt="Team Member 9"
                     className="w-full h-full rounded-lg mb-4"
                   />
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-0  text-center">
                   <img
                     src="https://cdn.pixabay.com/photo/2023/01/13/22/13/ai-art-7717011_960_720.jpg"
-                    alt="Team Member 8"
+                    alt="Team Member 10"
                     className="w-full h-full rounded-lg mb-4"
                   />
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-0  text-center">
                   <img
-                    src="https://www.webtekno.com/images/editor/default/0004/24/ce990c020412edf7f467634ce383ac1fca2edec7.jpeg"
-                    alt="Team Member 8"
+                    src="https://net-bt.com.tr/wp-content/uploads/2021/07/yapay-zeka.jpg.webp"
+                    alt="Team Member 11"
                     className="w-full h-full rounded-lg mb-4"
                   />
                 </div>
                 <div className="bg-white rounded-lg shadow-md p-0  text-center ">
                   <img
                     src="https://gelecekbilimde.net/wp-content/uploads/2023/08/yapay_zeka.jpg"
-                    alt="Team Member 8"
+                    alt="Team Member 12"
                     className="w-full h-full rounded-lg mb-4"
                   />
                 </div>
