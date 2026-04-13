@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎨 DAVINCI AI FRONT-END CLONE
 
-## Getting Started
+> 🚀 Davinci AI görsel sanat platformunun modern frontend klonu (UI/UX odaklı proje)
 
-First, run the development server:
+---
+
+## 🌐 PROJE LİNKLERİ
+
+🔗 Live Demo: https://davinci-ai-front-end.vercel.app/
+
+---
+
+## 🧠 PROJE HAKKINDA
+
+Bu proje, Davinci AI görsel sanat platformunun kullanıcı arayüzünü birebir yeniden oluşturmayı hedefleyen bir **frontend klon çalışmasıdır.**
+
+👉 Amaç:
+- Yapay zeka işlevlerini değil
+- Sadece **UI / UX tasarımını ve kullanıcı deneyimini** yeniden inşa etmek
+
+---
+## 📸 SCREENSHOTS
+
+| Davinci 1 | Davinci 2 |
+|----------|----------|
+| ![Davinci 1](/davinci1.png) | ![Davinci 2](/davinci2.png) |
+
+| Davinci 3 | Davinci 4 |
+|----------|----------|
+| ![Davinci 3](/davinci3.png)| ![Davinci 4](/davinci4.png) |
+
+## ✨ ÖZELLİKLER
+
+- 🎨 Davinci AI ilhamlı modern UI tasarımı
+- 📱 Fully responsive yapı (mobil + desktop uyumlu)
+- 🧭 Dinamik ve modern navbar
+- ⚡ Hızlı ve akıcı sayfa deneyimi (Next.js avantajı)
+- 🎯 Temiz ve kullanıcı dostu arayüz
+- 🎥 React Player ile medya entegrasyonu
+- 🧩 Component-based yapı
+
+---
+
+## ⚙️ KULLANILAN TEKNOLOJİLER
+
+- ⚛️ ReactJS
+- 🚀 Next.js
+- 🎨 TailwindCSS
+- 📦 React Icons
+- 🎥 React Player
+- 🪝 React Hooks (State Management)
+
+---
+
+## 🧠 PROJE YAPISI
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+src/
+├── components/
+│   ├── Cards.js
+│   ├── Footer.js
+│   ├── Generate.js
+│   ├── Navbar.js
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 📱 RESPONSIVE YAPI
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+✔ Mobil uyumlu  
+✔ Tablet uyumlu  
+✔ Desktop uyumlu  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧠 NOT
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Bu proje sadece frontend klonudur.  
+AI (yapay zeka) backend veya model içermez.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 👨‍💻 GELİŞTİRİCİ
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ramazan Çiçekli  
+GitHub: https://github.com/rcicekli  
+LinkedIn: https://www.linkedin.com/in/rcicekli/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## ⭐ DESTEK
+
+Projeyi beğendiysen ⭐ vermeyi unutma!
